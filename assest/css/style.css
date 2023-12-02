@@ -99,3 +99,51 @@ p{
     height: 30px;
     border-radius: 20px;  
 }
+.two{
+    background-color: rgb(147,112,219); 
+    height: 600px;
+    text-align: center;
+}
+.taro{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.plan1{
+    border: 1px solid black; 
+    width: 250px;
+    height: 300px;  
+
+}
+.plan2{
+    border-radius: 15px;
+    background-color: white;
+    position: relative;
+    bottom:-70px;
+    width: 250px;
+    height: 300px;
+}
+.two .plan1 img{
+    height: 200px;
+    width: 200px;
+}
+.two .plan2 img{
+    height: 100px;
+    width: 100px;
+}
+.taro .plan1 h2{
+    padding-top: 50px;
+}
+.taro .plan1 p{
+    padding-top: 70px;
+}
+.taro .plan2 h2{
+    padding-top: 30px;
+}
+.taro .plan2 p{
+    padding-top: 70px;  
+}
+
+
