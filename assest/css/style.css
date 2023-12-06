@@ -103,35 +103,41 @@ p{
     background-color: rgb(147,112,219); 
     height: 600px;
     text-align: center;
+    border: 3px solid black;
+    margin-top: 70px;
 }
 .taro{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 60%;
     margin: 0 auto;
-    padding-top: 100px;
+    padding-top: 80px;
+    
 }
 .plan1{
-    border: 1px solid black; 
-    width: 250px;
-    height: 300px;  
+    border: 1px solid black;
+    height: 480px;  
+    width: 500px;
+    padding: 10px;
+    padding-left: 90px;
 
 }
 .plan2{
     border-radius: 15px;
     background-color: white;
     position: relative;
-    bottom:-70px;
-    width: 250px;
-    height: 300px;
+    bottom:-75px;
+    height: 400px;
+    padding: 10px;
+
 }
 .two .plan1 img{
-    height: 200px;
-    width: 200px;
+    height: 250px;
+    width: 300px;
 }
 .two .plan2 img{
-    height: 100px;
-    width: 100px;
+    height: 230px;
+    width: 250px;
 }
 .taro .plan1 h2{
     padding-top: 50px;
@@ -143,7 +149,52 @@ p{
     padding-top: 30px;
 }
 .taro .plan2 p{
-    padding-top: 70px;  
+    padding-top: 50px; 
 }
+.plan1 .two{
+    padding-left: 100px;
+}
+.testimo{
+    background-color: white;
+    height: 1500px;
+    border: 1px solid black;
+}
+.tom{
+    border: 1px solid red;
+    width: 70%;
+    margin: 0 auto;
+    height: 1400px;
+    text-align: center; 
+    margin-top: 70px;
+}
+.entete span{
+    text-transform:uppercase;
+}
+.entete h1{
+    padding-top: 20px;
+}
+.entete p{
+    padding-top: 20px;
+}
+.curi{
+    width: 70%;
+    margin: 0 auto;
+    height: 60px;
+    background-color:rgb(147,112,219) ;
+    display: flex;
+    padding: 20px;
+    border-radius: 5px;
+    padding-top: 20px;
+}
+.tof{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-image: url("../img/testimonial1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 
+}
 
